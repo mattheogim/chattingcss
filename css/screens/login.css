@@ -1,0 +1,78 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+/* instead of using flex we use text-align */
+.welcome-header{
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+
+}
+
+.welcome-header__title{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.welcome-header__text{
+    width: 60%;
+    opacity: 0.7;
+    
+}
+.btn-submit {
+    color: var(--btn-font-color);}
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin:0px 300px;
+    box-sizing: content-box;
+    width: 300px;
+}
+
+#login-form input{
+    border: none;
+    padding: 15px 0px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    transition: border-color 0.2s ease-in-out;
+
+}
+/* now the border line is not visible */
+#login-form input:not([type="submit"]){
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: border-color 0.3s ease-in-out;
+    }
+
+#login-form input[type="submit"]{
+    background-color: var(--yellow);
+    cursor: pointer;
+    border-radius: 5px;
+    }
+#login-form input[type="value"]{
+    color: rgba(0,0,0,0.4);
+    }
+    
+
+#login-form input::placeholder{
+    color: rgba(0,0,0,0.4);
+}
+
+#login-form input:focus{
+    border-color: var(--yellow);
+}
+
+#login-form a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+}
+
