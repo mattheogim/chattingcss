@@ -50,11 +50,16 @@ body{
     border: none;
     padding: 15px 0px;
     font-size: 18px;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
     margin-bottom: 25px;
     transition: border-color 0.2s ease-in-out;
 
 }
+/* now the border line is not visible */
+#login-form input:not([type="submit"]){
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: border-color 0.3s ease-in-out;
+    }
+    
 
 #login-form input::placeholder{
     color: rgba(0,0,0,0.4);
