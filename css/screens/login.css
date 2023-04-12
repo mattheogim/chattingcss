@@ -5,6 +5,7 @@
     align-items: center;
     height: 80vh;
     width: 100%;
+
 }
 /* instead of using flex we use text-align */
 .welcome-header{
@@ -14,6 +15,7 @@
     flex-direction: column;
     align-items: center;
     font-weight: 300;
+
 
 }
 
