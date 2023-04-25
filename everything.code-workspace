@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "pomodoro",
+			"path": "../../../../Library/Mobile Documents/com~apple~CloudDocs/Downloads/pomo/pomodoro"
+		},
+		{
+			"name": "Coco",
+			"path": "../.."
+		},
+		{
+			"name": "fomo",
+			"path": "../../../../Library/Mobile Documents/com~apple~CloudDocs/Downloads/pomo/fomo"
+		},
+		{
+			"name": "chattingcss",
+			"path": "."
+		},
+		{
+			"name": "pomodoro-html",
+			"path": "../Pomodoro/pomodoro-html"
+		}
+	],
+	"settings": {}
+}
