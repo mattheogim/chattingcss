@@ -1,4 +1,15 @@
 
+@keyframes badgeNotificationAnimation {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: none;
+    }
+}
 .badge{
     background-color: tomato;
     width: 20px;
@@ -9,7 +20,21 @@
     align-items: center;
     color: white;
     font-size: 600;
+    
 }
+.badge-nav{
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 600;
+    animation: badgeNotificationAnimation 1s ease-in-out infinite;
+}
+
 
 .badge-option{
     background-color: tomato;

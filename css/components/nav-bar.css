@@ -26,10 +26,23 @@
     bottom: 10px;
 }
 
+@keyframes notificationAnimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: none;
+    }
+}
+
 .nav__btn__notification{
 
     position: absolute;
     left: 20px;
     bottom: 18px;
+    animation: notificationAnimation 1s ease-in-out infinite;
 }
 
